@@ -24,6 +24,8 @@ def main():
     Brac.withdraw(1001,50000)
     admin.check_total_loan_amount()
     print(Brac)
-
+    mi = User('MI','mi@gmail.com',65748392,30000)
+    mi.Create_an_account(Brac)
+    
 if __name__ == '__main__':
     main()
