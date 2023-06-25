@@ -19,7 +19,7 @@ class User:
                 self.__password = password
          
     def Create_an_account(self,bank):
-        pass
+        bank.create_an_account(self)
 
     def deposit(self, amount):
         if amount>0:
